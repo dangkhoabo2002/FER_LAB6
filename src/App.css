@@ -1,3 +1,5 @@
+@import "./css/Contact.css";
+
 .App {
   text-align: center;
 }
@@ -32,7 +34,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  padding: 5vh 0;
+
+
+}
+
+form * {
+  width: 500px;
+
+}
+
+button {
+  width: 200px;
+  background-color: #61dafb;
 }
